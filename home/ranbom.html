@@ -1,0 +1,26 @@
+<script>
+  // リダイレクト用プログラム
+  // 複数のURLからランダムに選択してリダイレクトする
+  f_redirect();
+
+  function f_redirect() {
+    var arr = [
+      'sharou.html',
+      'j-pop.html',
+      'anime.html',
+      'clasic.html',
+      'jaz.html',
+      'music-box.html',
+      'relax.html',
+      'suggest.html',
+      'vokaro.html',
+      'piano.html'
+    ];
+    var num = arr.length;
+    if (arr.length == 0) return false;
+
+    // 0 から (arr.length - 1) の乱数を取得
+    var num = Math.floor(Math.random() * arr.length);
+    location.href = arr[num]; // リダイレクト
+  }
+</script>

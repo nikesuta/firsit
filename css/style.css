@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.7;
+    color: rgb(27, 22, 16);
+    background-color: rgb(228, 232, 236);
+}
+/*ヘッダー*/
+header{
+    background-image: url(../images/test.jpg);
+    background-color: white;
+    height: 75%; 
+    padding: 10px 10px 10px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.first h1{
+    font-size: 50px;
+}
+.first h1 a{
+    color: rgb(23, 28, 29);
+}
+.first h1 a:hover{
+    color: rgb(23, 28, 29);
+}
+.logo{
+    max-width: 5rem;
+    display: block;
+}
+.main-menu {
+    display: flex;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    list-style: none;
+    align-items: center;    
+}
+.main-menu li {
+    margin-left: 36px;
+}
+.main-menu a {
+    color: rgb(23, 28, 29);
+    font-size: 22.5px;
+}
+.main-menu a:hover{
+    color: #0bd;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    max-width: none;
+    margin: 0 auto;
+    padding: 0 8%;
+}
+/*フッター*/
+footer{
+    background: rgb(27, 22, 16);
+    text-align: center;
+    padding: 26px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+/*サイドバー*/
+.genru{
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+}
+.genre{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.sub-menu{
+    margin-bottom: 60px;
+    list-style: none;
+}
+.sub-menu li{
+    border-bottom: 1px #ddd solid;
+}
+.sub-menu a {
+    color: rgb(20, 15, 9);
+    padding: 10px 10px 10px 40px;
+    display: block;
+}
+.sideber{   
+    background-color: white;
+    padding: 5px; 
+    width: 20% ;
+    margin:20px 5px 100px 60px;
+}
+.sub-menu a:hover{
+    color: #0bd;
+}
+/*メイン*/
+.midashi{
+    font-size: 2rem;
+    font-weight: normal;
+    font-size: 40px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+main{
+    width:70% ;
+    background-color: white;
+    margin: 20px 100px 100px 20px;
+}
+.main-content{
+    display: flex;
+    justify-content: center; 
+    margin:0 auto;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+/*ホーム*/
+.hellow{
+    font-size: 35px;
+    padding: 30px;
+}
+.home-picture{
+    margin-left: 30px;
+}
+.hellow-words{
+    font-size: 20px;
+    margin-left: 60px;
+    font-family: sans-serif;
+}
+.today{
+    font-size: 35px;
+    margin: 40px 0px 30px 25px;
+}
+#name-bgm{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 17px;
+}
+/*歌*/
+.songs-youtube{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 30px 6% 30px 6%;
+}
+.songs-main{
+    margin: 20px;
+}
+.songs-words{
+    margin: 5px;
+    font-family: sans-serif;
+}
+.song-name{
+    padding: 30px;
+    font-size: 40px; 
+    text-decoration: underline;
+    text-decoration-color: rgb(7, 107, 189);
+}
+.songs-images{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    text-align: center;
+    margin-left: 33px;  
+}
+/*サイトについて*/
+.first-word{
+    font-size: 20px;
+    padding: 0.9px;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+.first{
+    display: flex;
+    align-items: center;
+}
+/*お問い合わせフォーム*/
+.bagu{
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.toiawase{
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 1.8px;
+}
+.main-li{
+    border: rgb(9, 8, 14) 2px solid;
+    
+}
+.main-menu{
+    padding-right:25px;
+}
+#today-bgm{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.second-midashi{
+    font-size: 30px;
+    margin-left: 70px;
+    text-decoration: underline;
+    text-decoration-color: #0bd;
+}
+/*曲の説明*/
+.about-s{
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+.about-so{
+    margin-left: 40px;
+}
+/*レスポンシブ対応*/
+@media screen and(max-width:750px){
+/*ヘッダー*/
+
+body{
+    color: #0bd;
+}
+
+/*サイドバー*/
+/*メイン*/
+
+
+}

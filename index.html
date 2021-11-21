@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Firsit</title>
+    <meta name="description" content="BGMを聴こう!　Firsitを使って、勉強からお部屋の雰囲気作りまで、日々の生活を音楽で満たしましょう。bgmサイト　Firsit">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.jpg">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2KR4YNFBED"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2KR4YNFBED');
+    </script>
+    <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+</head>
+
+<body>
+    <!--ヘッダー-->
+    <header class="page-header wrapper">
+        <div class="first">
+            <p><a href="index.html"><img class="logo" src="images/favicon.jpg"></a></p>
+            <h1><a href="index.html">Firsit</a></h1>
+        </div>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="home/contact.html">Contact</a></li>
+                <li><a href="home/ranbom.html">Random</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-content">
+        <!--サイドバー-->
+        <div class="sideber">
+            <aside>
+                <nav>
+                    <h3 class="genre">ジャンル</h3>
+                    <ul class="sub-menu">
+                        <li><a href="home/clasic.html">クラシック</a></li>
+                        <li><a href="home/music-box.html">オルゴール</a></li>
+                        <li><a href="home/piano.html">ピアノ</a></li>
+                        <li><a href="home/sharou.html">しゃろう</a></li>
+                        <li><a href="home/j-pop.html">J-pop</a></li>
+                        <li><a href="home/anime.html">アニメソング</a></li>
+                        <li><a href="home/vokaro.html">ボーカロイド</a></li>
+                        <li><a href="home/suggest.html">製作者のおすすめ</a></li>
+                        <li><a href="home/jaz.html">ジャズ</a></li>
+                        <li><a href="home/relax.html">リラックス</a></li>
+                    </ul>
+                </nav>
+                <div class="other">
+                    <h3 class="genru"></h3>
+                    <ul class="sub-menu">
+                        <li><a href="home/about-site.html">Firsitについて</a></li>
+                        <li><a href="home/about-songs.html">曲の説明</a></li>
+                        <li><a href="home/report.html">バグの報告</a></li>
+                        <li><a href="home/addition-content.html">コンテンツ追加要望</a></li>
+                        <li><a href="home/contact.html">お問い合わせ</a></li>
+                        <li><a href="home/copyright.html">著作権について</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <!--メイン-->
+        <main>
+
+            <h2 class="song-name">ようこそ！</h2>
+            <img class="songs-images" src="images/home.jpg" alt="ホーム">
+            <h2 class="hellow">Firsit(ファーシット)にようこそ！</h2>
+            <p class="hellow-words"> BGMを聞いて気分をリフレッシュすれば、</p>
+            <p class="hellow-words">勉強の効率が上がるのも間違いなし。</p>
+            <p class="hellow-words">勉強だけでなくお部屋の雰囲気づくりにもどうぞ！</p>
+            <div class="today">
+                <h3>本日のおすすめ</h3>
+                <div id="today-bgm"></div>
+                <div id="name-bgm"></div>
+                <!-- ここに今日のBGMが入る -->
+                <script type="text/javascript" src="randamu.js"></script>
+            </div>
+
+        </main>
+    </div>
+    <!--フッター-->
+    <footer>
+        <div class="under">
+            <p><small>&copy; 2021 Firsit </small></p>
+        </div>
+    </footer>
+</body>
+
+</html>
